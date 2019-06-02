@@ -14,8 +14,8 @@
 		<!-- <database.url>jdbc:postgresql://localhost:5432/flywaydemo</database.url> -->
 		<database.url>jdbc:mysql://localhost:3306/flywaydemo</database.url>
 		<!-- <database.user>flywaydemo</database.user> <database.password>flywaydemo</database.password> -->
-		<database.user>root</database.user>
-		<database.password></database.password>
+		<database.user>flywaydemouser</database.user>
+		<database.password>flywaypassword</database.password>
 	</properties>
 	<dependencies>
 		<!-- <dependency>
@@ -35,7 +35,9 @@
 						</locations> -->
 					<url>${database.url}</url>
 					<user>${database.user}</user>
-					<password>${databese.password}</password>
+					<!-- <password>flywaypassword</password> -->
+					<password>${database.password}</password>
+					
 				</configuration>
 				<dependencies>
 					<!-- <dependency> <groupId>postgresql</groupId> <artifactId>postgresql</artifactId> 
