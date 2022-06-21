@@ -10,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<flyway.version>5.2.4</flyway.version>
 		<!-- <postgres.driver.version>9.2-1002.jdbc4</postgres.driver.version> -->
-		<mysql.driver.version>8.0.13</mysql.driver.version>
+		<mysql.driver.version>8.0.28</mysql.driver.version>
 		<!-- <database.url>jdbc:postgresql://localhost:5432/flywaydemo</database.url> -->
 		<database.url>jdbc:mysql://localhost:3306/flywaydemo</database.url>
 		<!-- <database.user>flywaydemo</database.user> <database.password>flywaydemo</database.password> -->
